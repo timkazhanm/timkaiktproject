@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+h1 {
+    margin: 0;
+}
+.reservation-form {
+    margin-top: 30px;
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+label {
+    font-weight: bold;
+}
+input[type="text"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

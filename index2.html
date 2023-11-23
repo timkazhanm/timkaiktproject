@@ -1,0 +1,31 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Бронирование машины</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Арендовать машину</h1>
+    </header>
+
+    <div class="reservation-form">
+        <h2>Заполните форму для аренды</h2>
+        <form action="обработчик_бронирования.php" method="post">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="date">Дата:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Время:</label>
+            <input type="time" id="time" name="time" required>
+
+            <input type="submit" value="Забронировать машину">
+        </form>
+    </div>
+    <li><a href="index.html">На главную </a></li>
+ 
+</body>
+</html>
